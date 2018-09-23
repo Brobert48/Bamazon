@@ -42,7 +42,6 @@ function run() {
             }
         })
 }
-
 function viewProducts() {
     connection.query("SELECT * FROM products", function (err, res) {
         console.log('\n ID | Price | Quantity | Product Name');
